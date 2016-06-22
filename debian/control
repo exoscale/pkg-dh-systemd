@@ -1,0 +1,23 @@
+Source: dh-systemd
+Section: admin
+Priority: extra
+Maintainer: Vincent Bernat <bernat@debian.org>
+Build-Depends: debhelper (>= 9),
+               perl:any
+Standards-Version: 3.9.8
+
+Package: dh-systemd
+Architecture: all
+Depends: debhelper,
+         ${misc:Depends}, ${perl:Depends}
+Description: noop debhelper for Precise/Trusty to ignore systemd unit files
+ dh-systemd provides a debhelper sequence addon named 'systemd' and the
+ dh_systemd_enable/dh_systemd_start commands.
+ .
+ The dh_systemd_enable command adds the appropriate code to the postinst, prerm
+ and postrm maint scripts to properly enable/disable systemd service files.
+ The dh_systemd_start command deals with start/stop/restart on upgrades for
+ systemd-only service files.
+ .
+ This package is a mock. It doesn't do anything other than provide a
+ noop sequence addon.

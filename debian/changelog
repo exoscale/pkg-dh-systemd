@@ -1,0 +1,6 @@
+dh-systemd (0.0) precise; urgency=medium
+
+  * Initial release.
+
+ -- Vincent Bernat <bernat@debian.org>  Wed, 22 Jun 2016 15:41:23 +0200
+
