@@ -1,4 +1,4 @@
-dh-systemd (0.0) precise; urgency=medium
+dh-systemd (0.0.1) precise; urgency=medium
 
   * Initial release.
 
