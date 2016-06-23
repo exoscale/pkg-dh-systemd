@@ -3,7 +3,7 @@ Section: admin
 Priority: extra
 Maintainer: Vincent Bernat <bernat@debian.org>
 Build-Depends: debhelper (>= 9),
-               perl:any
+               perl
 Standards-Version: 3.9.8
 
 Package: dh-systemd
